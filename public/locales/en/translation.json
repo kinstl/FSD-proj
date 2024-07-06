@@ -11,5 +11,7 @@
     "Главная": "Main",
     "О сайте": "About us",
     "toggle": "Toggle",
-    "signIn": "Sign In"
+    "signIn": "Sign In",
+    "increment": "increment",
+    "decrement": "decrement"
 }

@@ -2,6 +2,8 @@
   "dasda": {
     "toggle": "toggle"
   },
+  "decrement": "decrement",
+  "increment": "increment",
   "signIn": "signIn",
   "throw error": "throw error",
   "toggle": "toggle",
