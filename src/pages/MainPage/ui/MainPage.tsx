@@ -10,16 +10,7 @@ const MainPage = () => {
         setValue(val);
     };
 
-    return (
-        <div>
-            {t('Главная страница')}
-            <Input
-                placeholder="Введите имя"
-                value={value}
-                onChange={onChange}
-            />
-        </div>
-    );
+    return <div>{t('Главная страница')}</div>;
 };
 
 export default MainPage;
