@@ -3,6 +3,8 @@
     "toggle": "toggle"
   },
   "decrement": "decrement",
+  "enterPassword": "enterPassword",
+  "enterUsername": "enterUsername",
   "increment": "increment",
   "signIn": "signIn",
   "throw error": "throw error",
