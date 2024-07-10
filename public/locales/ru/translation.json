@@ -15,5 +15,8 @@
   "increment": "Увеличение",
   "decrement": "Уменьшение",
   "enterUsername": "Введите никнейм",
-  "enterPassword": "Введите пароль"
+  "enterPassword": "Введите пароль",
+  "loginForm": "Форма авторизации",
+  "loginError": "Вы ввели неверный логин или пароль",
+  "signOut": "Выйти"
 }

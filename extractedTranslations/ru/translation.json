@@ -6,7 +6,10 @@
   "enterPassword": "enterPassword",
   "enterUsername": "enterUsername",
   "increment": "increment",
+  "loginError": "loginError",
+  "loginForm": "loginForm",
   "signIn": "signIn",
+  "signOut": "signOut",
   "throw error": "throw error",
   "toggle": "toggle",
   "translation": {
