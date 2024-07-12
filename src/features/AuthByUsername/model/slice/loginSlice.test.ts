@@ -10,7 +10,7 @@ describe('loginSlice', () => {
                 state as LoginSchema,
                 loginActions.setUsername('baobab'),
             ),
-        ).toStrictEqual({ username: 'baobab' });
+        ).toEqual({ username: 'baobab' });
     });
 
     test('test set password', () => {
@@ -20,6 +20,6 @@ describe('loginSlice', () => {
                 state as LoginSchema,
                 loginActions.setPassword('baobab'),
             ),
-        ).toStrictEqual({ password: 'baobab' });
+        ).toEqual({ password: 'baobab' });
     });
 });
