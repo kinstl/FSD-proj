@@ -8,6 +8,7 @@
   "increment": "increment",
   "loginError": "",
   "loginForm": "",
+  "profilePage": "profilePage",
   "signIn": "signIn",
   "signOut": "",
   "throw error": "throw error",
