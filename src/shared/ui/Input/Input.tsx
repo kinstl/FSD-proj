@@ -38,7 +38,7 @@ export const Input = memo((props: InputProps) => {
     useEffect(() => {
         if (autofocus) {
             setIsFocused(true);
-            ref.current.focus();
+            ref.current?.focus();
         }
     }, [autofocus]);
 
@@ -53,7 +53,7 @@ export const Input = memo((props: InputProps) => {
             type={type}
             value={value}
             onChange={onChangeHandler}
-            className={cls.input}
+            className={classNames(cls.input, {}, [className])}
             {...otherProps}
         />
     );
