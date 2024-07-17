@@ -2,5 +2,16 @@
   "profile": "Profile",
   "edit": "Edit",
   "firstname": "First name",
-  "lastname": "Last name"
+  "lastname": "Last name",
+  "profileError": "An error occurred while uploading the profile",
+  "tryToRefresh": "Try refreshing the page",
+  "cancel": "Cancel",
+  "save": "Save",
+  "age": "Age",
+  "city": "City",
+  "username": "Username",
+  "avatar": "Avatar link",
+  "avatarAlt": "Profile avatar",
+  "currency": "Currency",
+  "country": "Country"
 }

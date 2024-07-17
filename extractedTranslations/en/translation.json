@@ -1,4 +1,11 @@
 {
+  "age": "age",
+  "avatar": "avatar",
+  "avatarAlt": "avatarAlt",
+  "cancel": "cancel",
+  "city": "city",
+  "country": "country",
+  "currency": "currency",
   "dasda": {
     "toggle": "toggle"
   },
@@ -12,7 +19,9 @@
   "loginError": "",
   "loginForm": "",
   "profile": "profile",
+  "profileError": "profileError",
   "profilePage": "profilePage",
+  "save": "save",
   "signIn": "signIn",
   "signOut": "",
   "throw error": "throw error",
@@ -20,6 +29,8 @@
   "translation": {
     "toggle": "toggle"
   },
+  "tryToRefresh": "tryToRefresh",
+  "username": "username",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",
