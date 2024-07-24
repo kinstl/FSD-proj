@@ -13,5 +13,10 @@
   "avatar": "Avatar link",
   "avatarAlt": "Profile avatar",
   "currency": "Currency",
-  "country": "Country"
+  "country": "Country",
+  "ageError": "Incorrect age",
+  "noDataError": "The data is not specified",
+  "countryError": "Incorrect region",
+  "userError": "First and last name required",
+  "serverError": "Server error when saving"
 }
