@@ -1,17 +1,22 @@
 {
   "age": "",
+  "ageError": "",
   "avatar": "",
   "avatarAlt": "",
   "cancel": "",
   "city": "",
   "country": "",
+  "countryError": "",
   "currency": "",
   "edit": "",
   "firstname": "",
   "lastname": "",
+  "noDataError": "",
   "profile": "",
   "profileError": "",
   "save": "",
+  "serverError": "",
   "tryToRefresh": "",
+  "userError": "",
   "username": ""
 }
