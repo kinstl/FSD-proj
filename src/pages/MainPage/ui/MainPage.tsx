@@ -10,7 +10,7 @@ const MainPage = () => {
         setValue(val);
     };
 
-    return <div>{t('Главная страница')}</div>;
+    return <div style={{ color: 'black' }}>{t('Главная страница')}</div>;
 };
 
 export default MainPage;
