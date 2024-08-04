@@ -102,6 +102,24 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "vZ_QkuP"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "fignya",
+      "id": "Q7d56_W"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "privet",
+      "id": "KoYkvyO"
     }
   ],
   "users": [
@@ -114,20 +132,34 @@
     },
     {
       "id": "2",
-      "username": "user1",
+      "username": "user",
       "password": "123",
       "role": "USER",
       "avatar": "https://i.pinimg.com/736x/fa/44/04/fa44041f27cbd075ab6ce5d3bf412d77.jpg"
     }
   ],
-  "profile": {
-    "first": "Тимур",
-    "lastname": "Ульби",
-    "age": 22,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Moscow",
-    "username": "admin",
-    "avatar": "https://i.pinimg.com/564x/ca/8e/51/ca8e517fbb1b87b0148104814e016834.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Тимур",
+      "lastname": "Ульби",
+      "age": 22,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "admin",
+      "avatar": "https://i.pinimg.com/564x/ca/8e/51/ca8e517fbb1b87b0148104814e016834.jpg"
+    },
+    {
+      "id": "2",
+      "first": "Антон",
+      "lastname": "Барабек",
+      "age": 35,
+      "currency": "USD",
+      "country": "Armenia",
+      "city": "New York",
+      "username": "ulbi tv",
+      "avatar": "https://i.pinimg.com/736x/8f/ce/f1/8fcef1417225e504159a32912810fc55.jpg"
+    }
+  ]
 }
