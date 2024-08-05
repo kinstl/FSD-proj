@@ -14,6 +14,11 @@ const data = {
     img: 'https://teknotower.com/wp-content/uploads/2020/11/js.png',
     views: 1022,
     createdAt: '26.02.2022',
+    user: {
+        id: '1',
+        username: 'Ulbi',
+        avatar: 'https://i.pinimg.com/736x/8f/ce/f1/8fcef1417225e504159a32912810fc55.jpg',
+    },
     type: [],
     blocks: [
         {

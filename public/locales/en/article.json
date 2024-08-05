@@ -1,5 +1,7 @@
 {
   "notFound": "Article not found",
   "error": "An error occurred while uploading the article.",
-  "comments": "Comments"
+  "comments": "Comments",
+  "readMore": "Read more...",
+  "backToList": "Back to the list"
 }

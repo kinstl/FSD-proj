@@ -33,7 +33,7 @@ module.exports = {
         'implicit-arrow-linebreak': 'off',
         'react/require-default-props': 'off',
         'react/react-in-jsx-scope': 'off',
-        'react/jsx-props-no-spreading': 'warn',
+        'react/jsx-props-no-spreading': 'off',
         'react/function-component-definition': 'off',
         'react/jsx-wrap-multilines': 'off',
         'no-shadow': 'off',
@@ -58,6 +58,7 @@ module.exports = {
         'react-hooks/exhaustive-deps': 'error',
         'no-param-reassign': 'off',
         'no-undef': 'off',
+        'react/no-array-index-key': 'warn',
     },
     globals: {
         __IS_DEV__: true,
