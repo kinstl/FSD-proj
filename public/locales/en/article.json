@@ -3,5 +3,6 @@
   "error": "An error occurred while uploading the article.",
   "comments": "Comments",
   "readMore": "Read more...",
-  "backToList": "Back to the list"
+  "backToList": "Back to the list",
+  "errorList": "An error occurred while loading the list of articles"
 }
