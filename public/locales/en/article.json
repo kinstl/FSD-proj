@@ -4,5 +4,21 @@
   "comments": "Comments",
   "readMore": "Read more...",
   "backToList": "Back to the list",
-  "errorList": "An error occurred while loading the list of articles"
+  "errorList": "An error occurred while loading the list of articles",
+  "sort": "Sort by",
+  "search": "Search",
+  "ascending": "Ascending",
+  "descending": "Descending",
+  "sortByCreatedAt": "Created at",
+  "sortByTitle": "Title",
+  "sortByViews": "Views",
+  "it": "IT",
+  "all": "All articles",
+  "economics": "Economics",
+  "politics": "Politics",
+  "science": "Science",
+  "translation": {
+    "notFoundList": "Articles not found"
+  },
+  "notFoundList": "Articles not found"
 }

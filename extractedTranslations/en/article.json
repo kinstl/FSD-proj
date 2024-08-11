@@ -1,8 +1,21 @@
 {
+  "all": "",
+  "ascending": "",
   "backToList": "",
   "comments": "",
+  "descending": "",
+  "economics": "",
   "error": "",
   "errorList": "",
+  "it": "",
   "notFound": "",
-  "readMore": ""
+  "notFoundList": "",
+  "politics": "",
+  "readMore": "",
+  "science": "",
+  "search": "",
+  "sort": "",
+  "sortByCreatedAt": "",
+  "sortByTitle": "",
+  "sortByViews": ""
 }

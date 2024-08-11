@@ -1,24 +1,46 @@
 {
-  "posts": [
+  "notifications": [
     {
       "id": "1",
-      "title": "json-server",
+      "title": "Уведомление 1",
+      "description": "Произошло какое-то событие",
       "userId": "1"
     },
     {
       "id": "2",
-      "title": "json-server",
+      "title": "Уведомление 2",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "3",
+      "title": "Уведомление 3",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
+    },
+    {
+      "id": "4",
+      "title": "Уведомление 4",
+      "description": "Произошло какое-то событие",
+      "userId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Уведомление 1",
+      "description": "Произошло какое-то событие",
       "userId": "2"
     }
   ],
   "articles": [
     {
       "id": "1",
-      "title": "Javascript news",
+      "title": "Javascript news СВЕЖАЯ",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png",
       "views": 1022,
-      "createdAt": "26.02.2022",
+      "createdAt": "26.04.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -33,6 +55,54 @@
             "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
             "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
           ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "8",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы."
+          ]
         }
       ]
     },
@@ -40,8 +110,8 @@
       "id": "2",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
-      "views": 1022,
+      "img": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/113415626/original/a17667d573bf34559bf0d35993ed76e57d43ad00/program-python-scripts-for-automation-and-data-mining.png",
+      "views": 5204,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
@@ -62,11 +132,11 @@
     },
     {
       "id": "3",
-      "title": "Kotlin news",
+      "title": "Kotlin news 2019",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+      "views": 94002,
+      "createdAt": "26.02.2019",
       "userId": "1",
       "type": [
         "IT"
@@ -86,11 +156,11 @@
     },
     {
       "id": "4",
-      "title": "Javascript news",
+      "title": "Scala news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://pluspng.com/img-png/scala-logo-png-scala-logo-1200x675.png",
+      "views": 10222,
+      "createdAt": "24.01.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -110,11 +180,11 @@
     },
     {
       "id": "5",
-      "title": "Python news",
+      "title": "Golang news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://www.itsec.ru/hs-fs/hubfs/ISR/Golang.png?width=750&name=Golang.png",
+      "views": 10222,
+      "createdAt": "26.02.2020",
       "userId": "1",
       "type": [
         "IT"
@@ -134,9 +204,9 @@
     },
     {
       "id": "6",
-      "title": "Kotlin news",
+      "title": "Java news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "img": "https://andreyex.ru/wp-content/uploads/2018/05/Kak-ustanovit-Java-s-apt-na-Ubuntu-18.04.jpg",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -158,11 +228,11 @@
     },
     {
       "id": "7",
-      "title": "Javascript news",
+      "title": "Ruby news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--oqV3akcU--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/pgnw91fs7tpxn0wyeqh2.jpg",
+      "views": 100,
+      "createdAt": "21.02.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -182,10 +252,10 @@
     },
     {
       "id": "8",
-      "title": "Python news",
+      "title": "TypeScript news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
-      "views": 1022,
+      "img": "https://i.ytimg.com/vi/ztk9WZClmLQ/maxresdefault.jpg",
+      "views": 102222,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
@@ -208,7 +278,7 @@
       "id": "9",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -230,9 +300,9 @@
     },
     {
       "id": "10",
-      "title": "Javascript news",
+      "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "img": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/113415626/original/a17667d573bf34559bf0d35993ed76e57d43ad00/program-python-scripts-for-automation-and-data-mining.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -254,9 +324,9 @@
     },
     {
       "id": "11",
-      "title": "Python news",
+      "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -278,9 +348,9 @@
     },
     {
       "id": "12",
-      "title": "Kotlin news",
+      "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "img": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/113415626/original/a17667d573bf34559bf0d35993ed76e57d43ad00/program-python-scripts-for-automation-and-data-mining.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -302,9 +372,9 @@
     },
     {
       "id": "13",
-      "title": "Javascript news",
+      "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -328,7 +398,7 @@
       "id": "14",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
+      "img": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/113415626/original/a17667d573bf34559bf0d35993ed76e57d43ad00/program-python-scripts-for-automation-and-data-mining.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -352,7 +422,7 @@
       "id": "15",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -374,9 +444,9 @@
     },
     {
       "id": "16",
-      "title": "Javascript news",
+      "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "img": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/113415626/original/a17667d573bf34559bf0d35993ed76e57d43ad00/program-python-scripts-for-automation-and-data-mining.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -398,9 +468,9 @@
     },
     {
       "id": "17",
-      "title": "Python news",
+      "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -422,14 +492,14 @@
     },
     {
       "id": "18",
-      "title": "Kotlin news",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "title": "Экономическая статья - ИНФЛЯЦИЯ!",
+      "subtitle": "Экономика",
+      "img": "https://www.mirea.ru/upload/iblock/7cf/vvp_rf2018_1.jpg",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
-        "IT"
+        "ECONOMICS"
       ],
       "blocks": [
         {
@@ -445,15 +515,15 @@
       ]
     },
     {
-      "id": "19",
-      "title": "Javascript news",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "id": "18",
+      "title": "Научная статья 1 - Биология",
+      "subtitle": "БиологиЯ",
+      "img": "https://kartinkin.net/uploads/posts/2022-02/1645783899_19-kartinkin-net-p-kartinki-po-biologii-20.jpg",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -469,52 +539,56 @@
       ]
     },
     {
-      "id": "20",
-      "title": "Python news",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
+      "title": "Научная статья 2 - Биология",
+      "subtitle": "БиологиЯ",
+      "img": "https://l-zn.ru/wp-content/uploads/biologiya.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
-            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
-            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
-          ]
-        }
-      ]
+      "blocks": [],
+      "id": "guOLlgD"
     },
     {
-      "id": "21",
-      "title": "Kotlin news",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "title": "Научная статья 3 - Биология",
+      "subtitle": "БиологиЯ",
+      "img": "https://i.ebayimg.com/00/s/NjE0WDc2OA==/z/PhIAAOSw~oFZvBcK/$_57.JPG?set_id=8800005007",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
-            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
-            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
-          ]
-        }
-      ]
+      "blocks": [],
+      "id": "6f91vPH"
+    },
+    {
+      "title": "Основы демократии",
+      "subtitle": "Политика",
+      "img": "https://dzen.ru/lz5XeGt8f/2U00Wf340/e47769bNYQCa/GrBBOJdHlOa6Z3r0J5X6xQ_9tKDoQSGMSXvcEpoEjg9tYQelGJba234FcWyWpV20J_6mStUvhtnLY5y2GSB0zjqRwE0TctAzmLMrBHM1_2CPOECAzLVljdkezTZekctpzWUGod2Tn92uRSFtZFf_hcC4RKz36MF7azd5pqjBYMjc4La45XYHhYg0HifnNNpHjk3k0pzRkfr5qJ3GGNZcnt-xt1GvYxzMCDKEKlUHb6RyqaZO9fsQquhGiqV9oUPJnDXU-jY258aaFAzENsQo5JwO55Gv4sGoOYm_5uqWjtxcsFUTb-JNrfgTZJhXJDy1INgXfbcacUubthvm_SJTiT8lpMklNaeU-2ZstTQXSFUOjtdQb6OTyCp5D5R6l_6Pv2MUokzB7z1I8mR4tTbON5AYxs01yOGK6YfaVF6S8pn9VHcZllaE9MvH3udXVDiXfp3nUczxcmvIi95UaJSP_94Ax0Mekm_u2NCkWpTWXLWxCwYvN9sTCfsHuYY9MwNarwX1WFdG9IeJ9F9WtyYqdU5uRdGM0TBJKCkd9iskPY4fEJSxrqDNPwpyxKrVxpyWQgiEvHcbgVrqRgqn3YFwGR5H15h3pbaGGSSflqc1OUf9T4birIOSWplb3wRbB4xvn8BVUw7gfW8IUqd4FpYuFELJJU6VixMLexZIZd4x4BqN1ScqlFU2hwjE_LU1VKmFLV6Ug7xQwZpLG272e0efzoxRNzC-oX_cysCkG1SnLSVzuSR81Zhya2r1e0TdgvNZfBf0WOcVliQ5lB-F9oe5BJ6fVeK_kMPIWUledyuG_a3PspSjvAPM7Mug1_tEBo9koMnnLpZYEwvJhZlnfSFBOE4X9mjE5OfGG_QNR3V12qSv30cArjNQ6Es7fzbKx49O3dPlwWwT7996IvRLF5U_51I65C8W6eK568T6VM5CYYnsRcUplrVVdhpVz1V2hykW7y8VcH4C0mqpWM8FWrY9bL3BtqEP4M6cCeM02VWFXjTQK-Xdh4pDiSgWC2TcY2EZ3ofmmLclJYYLp8zUpAb6N9_MtdBs4NB5KxjO9JtXrU2PM0XBnRP8zJtwt8hXNuy0wKlW3HdZ4Oj5Z6rHLbMxOf5VxQhGNOUluiUdhCcFSrXOj4QC7LFjeivZDQXKpD5_rDJ0gT_zHs16MFbatMSP50Dohn9VKFFaKvYrFm1jEzgchyd7xvaFl7hlb3SHZztF3I9HAE0BIsg5qK8maWT8XYyjxeK-sDzMODD1arc2HhSRizdthunxiUs0GYV_IOEJzoXFWsaHJUQo5BxWFNe6B2-dt_DsEGOZKDucB-tnXM-dUPcwfUAv7fviZOqmBM0lImtVTnUp8Hm6Rru1PTFyGU6WZwkFd_cEucSMxFaFmtY_v-VgXdMRWJgqDxZaxn4PD5JVMR8R_WzaIFVqt3edtYJ5hq5UekJLGhQoVFzTEagfhCW6dBVVx8sU7VU3BrhUzB9mouyA0Fo72M80CMbMv6yy1PFOwQ3My0A1OLbGP3cS-pVe1ynCeyvEGOUPITF4TIf3KYSWlwaIdI939JcZRh5dlgNdgPIKGlrOJwrmXpxtEHShHPONfJuwdTlGhR9E0MrmHxQrw4q69XslXIBTSQy3NFhXJte3-3aelpaFK1cebWTQjhLBWbvYLTdYhv7eLGG3EU3QP2yqUsT4RfaPJsKpJ15HiPC72gdIZe6TQ3mvZGao5tcm1Hnn3OXlBQg3zC1nwN7BEpuLOX8m-pfuv-9RFfHfUXztG9Mmq2X2npaCWObNZNhDyehEayfMgnNpf1QVmqR3NZcIJr7XJlcIl86P5gN9sTPq-bidBlgF_ZwsUSaynZPdzvlDREknlh118GlW_tfZ8_gZZMqVboKzK46U1IvWZgQGO9acxTcVG4eN_QdhjiEy67uq3bdYNi2trxF28L0g_J15gmV7BOasppMZNV7WaNDKyzd55KzgsopeFncq5VTF1uo0w",
+      "views": 2135,
+      "createdAt": "07.07.2021",
+      "userId": "3",
+      "type": [
+        "POLITICS"
+      ],
+      "blocks": [],
+      "id": "6f91oPl"
+    },
+    {
+      "title": "Из Африки с любовью",
+      "subtitle": "Внешняя политика Африки",
+      "img": "https://kinopoisk-ru.clstorage.net/304D3mH22/f500d8YfN/B7sTUKFKOER8cnqjfomzuDEq3m6S-9zdlanlLt-tyVbM7aGUSTlVo8TRihIoyAfmKctJTlrG0UYQmPZPCQH26DayUk3kNxVlBSMCzx_Y2ulkArsXyqOh_MyZgEKbaQmSdEERBbW5_QNgmOsKdaVig3TqSX9forULFT1eesxsKiE3s0sk8QYxbHS6869aib_kzd9y2sZuiPUx6FWGW50xtiSp9RXFqU3jDAD3w9GFQofkgt0LzxuBm-l5b27EwBLtH4sbFB0S3fBQtv8jTjVHbC3j2oayMrydaegZYlf9oY4w-WUpacnFe0yg54fBDe6LnKYVR3uDxUuVHTvu-MyKMVOn2wiB3jH4RLKTD569h_B56yre1qZ0EZlk_WLz0cEuxAUl9WVBdUPAfB9bAcmWc_j6eY97Z1Xf3elHpqiAfs2nr0O4DWqtqJC6e6tWLVMIKUPOjsoWOClN9GlSkzHhyswdDTX1xclzYEjnc3klVnfYSr3jN5PFD00Rx97wmCKhX7vXEBkOMbAMVnsDQkljOO2PYmYWMlxZHex9IsfxRd4UFQUxvUmlgxhM71sp1R4TiPZdd58fxRsBKUu2qNCiMRezpwyRwunsgAqTx1KBS7BNw9IWFo5oxU28STbbudXKvClZebkV-bNQHFcziVlKhyCacb_754FHxd2nKqiwUlEX1xvY_Tp9oMCGd8_K5d8UqZeimlYCrAGRoIFm78EVyvyhQak92dlruOwTZ-k5wntAElWTrz-BByGpCz5gSFI1W3MToE3WtVyIVouXsrFHSIHHNubufsSFjcBhkiMhxYYk7amJaXXNN_Ts7x-NIdYXnC7l1_Nn7U8RSZueIOxifStTG6w5FjXgxK5vL8YFI-x9G9KW4rq8FSFcuZYzGUk6OOGNXXmxWWO8THuX2VV63ygm1Vf7xz3jhaVvkiB0tq3b31tIoa7h0MzKe6suqdc4Ya_yEl5OZI29oN3Kw_X9kkShCdndfXkPCJgrS4ERHjfUtqWD8-ehf9UJL1rATC6Rq7uDiIVWcbBoKoczhh1bTPXvJs62rszR1fB9UquRTaZAqfEZpS0pAzyUn39hjVIrkB6hUyOn6QPt0W9qiDimuWvnw1iJ6p1MAPaThzq9z_QdD1rqXg5MqZ1kld6nkSFGpGWtUWWVuTdk7PNb4Y3yB1RO6XNXz9VTDZHDTlh4im3PswOkARLNzBxuA8smsev0Af-26ibq2BXhpAFGZ8EpfvQVQY09GfkHGPi7g0Ulyp-cZpH_05cZz4FFg-a0mPJRR8vb4H1i-UiQCpMjRpWHDJ1_ghbKylgdQZyx1p-paS7kzYWR1cGFm9Ckl4uBEZaLxJbx45tfyad1jXfirPziqWfHv9xxyt1UUCIz8xKVU6R583rGooJ0jSlUZeZ_QW3e4EFVod2pwW9kmHPnJRmGtxRiLb93Q62D-eHvfiBghqVbS5OwkWrFbPxCezv-zW-I_ePG0uZ2IIGF5LWmb025OtSRNZW1WYEXFBSvY-Xd0oNUjmVf86tNK5Vlw8qgGNLBnyNP3GXefSis3jujVu0XBA3j8gJS5rBx6cBJvku1edL0ocV1ucnNB0Sc118VtfavfDbZX3fvzX9hVa_qhARqPZP_tzyVDqVwdNrz0zqZtwQxx0baYnqwjWVs8RobNbVaKG1BGUXZKe942Fdz9Tmii-QefU9H3ykfzQV79lhE8lXTyzfQMZbxKOz2e4M2LcuMLVvSfsK2RNXBcIUevyExnvQtydG5Le3PeIA_Y92pBtPQ4mHHUwtpe2FVa2489H4VBytLBDU2YezkUmtHDhGfcPFj0gZOruTZvchZ5tNdyYo0lXlddVk1m7zI_5PtWe6PgP55s79nOet1GfteKMh6McfT36SxlmmsoE7js7bJD0AJm6ZyikrICTUkbZJnqSFCyNG9_a0ZyTN4gNczGcnO6yCC-WOnO0Ej5ckPuvxoHuE_p0OwnT6lUGgG50dWhYdwlf9WarIaCGGluEUGv6HJUugNqTE1WYmL6ECHz6mVetNEMqHL989Z0wHVQ0rkOHKt17MLzMGi-VAMIn-foplfPMXnVs6yLigh4dBJDjddVVpk_VmlSal9g7AM4_flme7vZM4VcwvLOZcF_f9S9NTySY9z9xB92tU4GDpXCw5VN0jFAyJqpqJwRbm4RSJjNRGGaNlRrckxcb_k2Fef7a3-Fyguqb-PK-V7bc0_2qQEmuUnvz9YfTJ9HNAuD0umGW8cEQ_GyrJuiJUNmHGyHyHpknx1qbVFEXFPSACDYxU55itYmnFvR0-pY9FJG_Yo1I7pMwM7CJFqwcwMVoODlilrkAl7Th6qFqSV2eTlXlNVQT44BaF9obWps8AMk9ON6XrnzIrNP4c7BW_1fRPidIzmpReroxQNnrVoWFJfIypV73iVZ2pGZqK0YUlUjZpH2UnOqMVZAdHFxTf8VHvHra3Kt_ymUWMXQ1kD9Rkntkhgtk0Pwz-onQbJzKBao8em2asYkQcGSgqSLHXJcN2a86U5ihhhNV2dOYUX_ACzW1kVer_UnulH2z-J2ymZN8ZMHJpth7czEL0aYchgAjsTvmWXdB2Pgloynuj9ZfRtYt853d4ggem9xYEJ89wUcxuBgRIPcAah97dvCft5ET8-dEye_Uf7X4g5uu3sKIr3XwLt17wxR9KGFgbIyb24wS4ndV0KJF3JkVGZNffQZDuP6SlWW_j-lYvz59UbdaUH7oyQ3l0_Awu8kcbl1AD2j9Pe3YcEvd_edrqeUO0V4BG-1wlJwmzBWWl59c1zDHRjZ43FYgPQzvHrC4OJZ4X9D_a8nCLVhyNfjIHa8UxAcj9Lrl0zJJ1_IjIqwuyN2azlmm-9zZI4XaUFtYEFn8QUIwclKd5_GL7J08-XRRPpAZPiTAwKLTvnX6CdDhX0FLYHn7q16wQhLy4K0mJASdVkTaZ3RWGO9CGhFd1R_ZN42PNrZQEu49T6QRNzh6njKXF8",
+      "views": 99999,
+      "createdAt": "22.07.2024",
+      "userId": "4",
+      "type": [
+        "POLITICS"
+      ],
+      "blocks": [],
+      "id": "0f21vPH"
     }
   ],
   "comments": [
@@ -540,25 +614,181 @@
       "articleId": "1",
       "userId": "1",
       "text": "123",
-      "id": "vZ_QkuP"
+      "id": "4Cljjzl"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123asfasf",
+      "id": "AEM4Dvc"
     },
     {
       "articleId": "1",
       "userId": "2",
-      "text": "fignya",
-      "id": "Q7d56_W"
+      "text": "123asfasf",
+      "id": "IFEOWl0"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "привет мир",
+      "id": "dBacYRZ"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "хехехехе",
+      "id": "rBX_C-e"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "фыафыа",
+      "id": "5k0ApX-"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "sdfsdfsd",
+      "id": "w-HDIRq"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "asdasdasd",
+      "id": "MVvGQoZ"
+    },
+    {
+      "articleId": "3",
+      "userId": "1",
+      "text": "comment 1",
+      "id": "bAs7YBE"
+    },
+    {
+      "articleId": "2",
+      "userId": "1",
+      "text": "python!!!",
+      "id": "p5rMadd"
+    },
+    {
+      "articleId": "3",
+      "userId": "1",
+      "text": "123213",
+      "id": "Zu_RNuF"
+    },
+    {
+      "articleId": "8",
+      "userId": "1",
+      "text": "dfdsf",
+      "id": "4rFHQgJ"
+    },
+    {
+      "articleId": "8",
+      "userId": "1",
+      "text": "sdfsdf",
+      "id": "yYEdTI-"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "123213",
+      "id": "TR1yDY6"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "112",
+      "id": "wSAhqy5"
+    },
+    {
+      "articleId": "18",
+      "userId": "1",
+      "text": "12",
+      "id": "r6b1z-N"
+    },
+    {
+      "articleId": "18",
+      "userId": "2",
+      "text": "привет",
+      "id": "DENfTu6"
+    },
+    {
+      "articleId": "7",
+      "userId": "2",
+      "text": "33",
+      "id": "Ps59wrg"
+    },
+    {
+      "articleId": "7",
+      "userId": "2",
+      "text": "123",
+      "id": "zzYVth3"
+    },
+    {
+      "articleId": "7",
+      "userId": "2",
+      "text": "123",
+      "id": "WjF4c_d"
     },
     {
       "articleId": "1",
       "userId": "2",
       "text": "privet",
-      "id": "KoYkvyO"
+      "id": "fta748h"
     },
     {
-      "articleId": "3",
+      "articleId": "2",
+      "userId": "2",
+      "text": "питон топ",
+      "id": "ZlmlUrg"
+    },
+    {
+      "articleId": "7",
       "userId": "1",
-      "text": "net",
-      "id": "wLYFETc"
+      "text": "123",
+      "id": "KmtWJR_"
+    },
+    {
+      "articleId": "8",
+      "userId": "2",
+      "text": "asdasd",
+      "id": "eB1A-7c"
+    },
+    {
+      "articleId": "2",
+      "userId": "1",
+      "text": "class",
+      "id": "wAZ_hJM"
+    },
+    {
+      "articleId": "2",
+      "userId": "1",
+      "text": "asfasf",
+      "id": "SygCNYE"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "213",
+      "id": "bq8YXY2"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores dolorum eaque eius excepturi expedita     ipsa nam, quos rem rerum voluptas voluptate voluptatem? Dicta distinctio dolore explicabo labore magni sit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolores dolorum eaque eius excepturi expedita     ipsa nam, quos rem rerum voluptas voluptate voluptatem? Dicta distinctio dolore explicabo labore magni sit!",
+      "id": "lTD5sA7"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "asd",
+      "id": "NfX84Yo"
+    },
+    {
+      "articleId": "18",
+      "userId": "1",
+      "text": "фыафыа",
+      "id": "Fmg06f6"
     }
   ],
   "users": [
@@ -566,39 +796,175 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN",
-      "avatar": "https://i.pinimg.com/736x/8f/ce/f1/8fcef1417225e504159a32912810fc55.jpg"
+      "roles": [
+        "ADMIN"
+      ],
+      "features": {
+        "isArticleRatingEnabled": true,
+        "isCounterEnabled": true,
+        "isAppRedesigned": true
+      },
+      "avatar": "https://mobimg.b-cdn.net/v3/fetch/22/2207633df03a819cd72889249c8361a8.jpeg?w=1470&r=0.5625",
+      "jsonSettings": {
+        "isArticlesPageWasOpened": true,
+        "theme": "app_dark_theme"
+      }
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER",
-      "avatar": "https://i.pinimg.com/736x/fa/44/04/fa44041f27cbd075ab6ce5d3bf412d77.jpg"
+      "roles": [
+        "USER"
+      ],
+      "features": {
+        "isArticleRatingEnabled": false,
+        "isCounterEnabled": false,
+        "isAppRedesigned": false
+      },
+      "avatar": "https://i.pinimg.com/originals/9a/e0/2d/9ae02d4b4288396108ef77830a59e060.jpg",
+      "jsonSettings": {
+        "isArticlesPageWasOpened": true,
+        "theme": "app_dark_theme"
+      }
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": [
+        "MANAGER"
+      ],
+      "features": {
+        "isArticleRatingEnabled": false,
+        "isCounterEnabled": true
+      },
+      "avatar": "https://s1.1zoom.ru/big3/992/367659-alexfas01.jpg",
+      "jsonSettings": {
+        "isArticlesPageWasOpened": true
+      }
+    },
+    {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "features": {
+        "isArticleRatingEnabled": true,
+        "isCounterEnabled": true
+      },
+      "avatar": "https://s1.1zoom.ru/big3/992/367659-alexfas01.jpg"
     }
   ],
   "profile": [
     {
       "id": "1",
-      "first": "Тимур",
-      "lastname": "Ульби",
-      "age": 22,
-      "currency": "RUB",
-      "country": "Russia",
+      "first": "фыаыфаыф",
+      "lastname": "ulbi",
+      "age": 25,
+      "currency": "EUR",
+      "country": "Ukraine",
       "city": "Moscow",
-      "username": "admin",
-      "avatar": "https://i.pinimg.com/564x/ca/8e/51/ca8e517fbb1b87b0148104814e016834.jpg"
+      "username": "admin213",
+      "avatar": "https://mobimg.b-cdn.net/v3/fetch/22/2207633df03a819cd72889249c8361a8.jpeg?w=1470&r=0.5625"
     },
     {
       "id": "2",
-      "first": "Антон",
-      "lastname": "Барабек",
-      "age": 35,
-      "currency": "USD",
-      "country": "Armenia",
-      "city": "New York",
+      "first": "ulbi tv",
+      "lastname": "asf",
+      "age": 465,
+      "currency": "EUR",
+      "country": "Ukraine",
+      "city": "Moscow",
       "username": "ulbi tv",
-      "avatar": "https://i.pinimg.com/736x/8f/ce/f1/8fcef1417225e504159a32912810fc55.jpg"
+      "avatar": "https://i.pinimg.com/originals/9a/e0/2d/9ae02d4b4288396108ef77830a59e060.jpg"
+    },
+    {
+      "id": "4",
+      "first": "test",
+      "lastname": "user",
+      "age": 465,
+      "currency": "EUR",
+      "country": "Ukraine",
+      "city": "Moscow",
+      "username": "testuser",
+      "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
+    }
+  ],
+  "article-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "1"
+    },
+    {
+      "userId": "1",
+      "articleId": "3",
+      "rate": 3,
+      "feedback": "",
+      "id": "I7ofk1u"
+    },
+    {
+      "userId": "1",
+      "articleId": "9",
+      "rate": 5,
+      "feedback": "asdasdasdasd",
+      "id": "Y7MhPzo"
+    },
+    {
+      "userId": "1",
+      "articleId": "10",
+      "rate": 1,
+      "feedback": "отстой",
+      "id": "II0a75O"
+    },
+    {
+      "userId": "1",
+      "articleId": "7",
+      "rate": 3,
+      "feedback": "",
+      "id": "bcPnbbZ"
+    },
+    {
+      "userId": "2",
+      "articleId": "1",
+      "rate": 4,
+      "feedback": "asdasdasdad",
+      "id": "1I3E5gT"
+    },
+    {
+      "userId": "1",
+      "articleId": "2",
+      "rate": 2,
+      "feedback": "asdasdasd",
+      "id": "xbwnNBF"
+    },
+    {
+      "userId": "1",
+      "articleId": "12",
+      "rate": 5,
+      "feedback": "фыаыфаыаф",
+      "id": "ftXTMSh"
+    }
+  ],
+  "profile-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "2"
     }
   ]
 }
