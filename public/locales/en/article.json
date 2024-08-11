@@ -20,5 +20,6 @@
   "translation": {
     "notFoundList": "Articles not found"
   },
-  "notFoundList": "Articles not found"
+  "notFoundList": "Articles not found",
+  "order": "Order by"
 }

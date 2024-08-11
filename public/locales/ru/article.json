@@ -17,5 +17,6 @@
   "economics": "Экономика",
   "politics": "Политика",
   "science": "Наука",
-  "notFoundList": "Статьи не найдены"
+  "notFoundList": "Статьи не найдены",
+  "order": "По порядку"
 }
