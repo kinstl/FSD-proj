@@ -90,7 +90,6 @@ const ArticleDetailsPage = ({ className }: ArticleDetailsPageProps) => {
                     className={cls.recommendations}
                     articles={recommendations}
                     isLoading={recommendationsIsLoading}
-                    // eslint-disable-next-line i18next/no-literal-string
                     target="_blank"
                 />
                 <Text
