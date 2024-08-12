@@ -21,5 +21,6 @@
     "notFoundList": "Articles not found"
   },
   "notFoundList": "Articles not found",
-  "order": "Order by"
+  "order": "Order by",
+  "recommend": "Recommended"
 }
