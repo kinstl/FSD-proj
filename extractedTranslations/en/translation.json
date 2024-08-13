@@ -3,6 +3,7 @@
   "age": "age",
   "ageError": "ageError",
   "all": "all",
+  "appName": "appName",
   "ascending": "ascending",
   "avatar": "avatar",
   "avatarAlt": "avatarAlt",
@@ -12,6 +13,8 @@
   "comments": "comments",
   "country": "country",
   "countryError": "countryError",
+  "create": "create",
+  "createArticle": "createArticle",
   "currency": "currency",
   "dasda": {
     "toggle": "toggle"
@@ -20,6 +23,7 @@
   "descending": "descending",
   "economics": "economics",
   "edit": "edit",
+  "editArticle": "editArticle",
   "enter": "enter",
   "enterPassword": "enterPassword",
   "enterUsername": "enterUsername",

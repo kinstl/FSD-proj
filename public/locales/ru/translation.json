@@ -23,5 +23,7 @@
   "profilePage": "Страница профиля",
   "comment": {
     "send": "Отправить"
-  }
+  },
+  "appName": "Ulbi TV App",
+  "createArticle": "Cоздать статью"
 }

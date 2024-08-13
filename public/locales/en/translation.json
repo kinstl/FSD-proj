@@ -23,5 +23,7 @@
   "profilePage": "Profile Page",
   "profile": {
     "avatarAlt": "Profile avatar"
-  }
+  },
+  "appName": "Ulbi TV App",
+  "createArticle": "Create article"
 }

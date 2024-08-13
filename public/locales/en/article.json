@@ -22,5 +22,8 @@
   },
   "notFoundList": "Articles not found",
   "order": "Order by",
-  "recommend": "Recommended"
+  "recommend": "Recommended",
+  "edit": "Edit",
+  "editArticle": "Editing an article with an ID =",
+  "create": "Creating a new article"
 }
