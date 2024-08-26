@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { getArticleDetailsData } from 'entities/Article';
 import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
-import cls from './ArticleDetailsPageHeader.module.scss';
+import { HStack } from 'shared/ui/Stack';
 import { getCanEditArticle } from '../../model/selectors/article';
 
 interface ArticleDetailsPageHeaderProps {
@@ -30,24 +30,20 @@ export const ArticleDetailsPageHeader = memo(
         }, [article?.id, navigate]);
 
         return (
-            <div
-                className={classNames(cls.ArticleDetailsPageHeader, {}, [
-                    className,
-                ])}
+            <HStack
+                max
+                justify="between"
+                className={classNames('', {}, [className])}
             >
                 <Button theme={ButtonTheme.OUTLINE} onClick={onBackToList}>
                     {t('backToList')}
                 </Button>
                 {canEdit && (
-                    <Button
-                        className={cls.editBtn}
-                        theme={ButtonTheme.OUTLINE}
-                        onClick={onEditArticle}
-                    >
+                    <Button theme={ButtonTheme.OUTLINE} onClick={onEditArticle}>
                         {t('edit')}
                     </Button>
                 )}
-            </div>
+            </HStack>
         );
     },
 );

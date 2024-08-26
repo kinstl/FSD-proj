@@ -12,7 +12,7 @@ import {
 import { useCallback } from 'react';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { getUserAuthData } from 'entities/User';
-import cls from './ProfilePageHeader.module.scss';
+import { HStack } from 'shared/ui/Stack/HStack/HStack';
 
 interface ProfilePageHeaderProps {
     className?: string;
@@ -39,38 +39,30 @@ export const ProfilePageHeader = ({ className }: ProfilePageHeaderProps) => {
     }, [dispatch]);
 
     return (
-        <div className={classNames(cls.ProfilePageHeader, {}, [className])}>
+        <HStack
+            max
+            justify="between"
+            className={classNames('', {}, [className])}
+        >
             <Text title={t('profile')} />
-            {canEdit && (
-                <div className={cls.btnsWrapper}>
-                    {readonly ? (
+            {canEdit &&
+                (readonly ? (
+                    <Button theme={ButtonTheme.OUTLINE} onClick={onEdit}>
+                        {t('edit')}
+                    </Button>
+                ) : (
+                    <HStack gap="8">
                         <Button
-                            className={cls.editBtn}
-                            theme={ButtonTheme.OUTLINE}
-                            onClick={onEdit}
+                            theme={ButtonTheme.OUTLINE_RED}
+                            onClick={onCancelEdit}
                         >
-                            {t('edit')}
+                            {t('cancel')}
                         </Button>
-                    ) : (
-                        <>
-                            <Button
-                                className={cls.editBtn}
-                                theme={ButtonTheme.OUTLINE_RED}
-                                onClick={onCancelEdit}
-                            >
-                                {t('cancel')}
-                            </Button>
-                            <Button
-                                className={cls.saveBtn}
-                                theme={ButtonTheme.OUTLINE}
-                                onClick={onSave}
-                            >
-                                {t('save')}
-                            </Button>
-                        </>
-                    )}
-                </div>
-            )}
-        </div>
+                        <Button theme={ButtonTheme.OUTLINE} onClick={onSave}>
+                            {t('save')}
+                        </Button>
+                    </HStack>
+                ))}
+        </HStack>
     );
 };
