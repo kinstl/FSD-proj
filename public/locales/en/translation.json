@@ -21,9 +21,7 @@
   "loginError": "You entered an incorrect username or password",
   "signOut": "Sign out",
   "profilePage": "Profile Page",
-  "profile": {
-    "avatarAlt": "Profile avatar"
-  },
+  "profile": "Profile",
   "appName": "Ulbi TV App",
   "createArticle": "Create article"
 }
