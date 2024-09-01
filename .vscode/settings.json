@@ -1,3 +1,4 @@
 {
-    "i18n-ally.sourceLanguage": "ru"
+    "i18n-ally.sourceLanguage": "ru",
+    "typescript.tsdk": "node_modules/typescript/lib"
 }

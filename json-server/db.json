@@ -901,6 +901,18 @@
       "userId": "1",
       "text": "эээ маладой",
       "id": "UEVvdNc"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "авыаывп",
+      "id": "9M-BcOq"
+    },
+    {
+      "articleId": "2",
+      "userId": "1",
+      "text": "Тоск не учит(((",
+      "id": "cG_22a9"
     }
   ],
   "users": [
@@ -973,11 +985,11 @@
   "profile": [
     {
       "id": "1",
-      "first": "парпарпарфыаыфаыф",
+      "first": "дадая",
       "lastname": "ulbi",
       "age": 21,
-      "currency": "EUR",
-      "country": "Ukraine",
+      "currency": "USD",
+      "country": "Kazakhstan",
       "city": "Moscow",
       "username": "admin213",
       "avatar": "https://mobimg.b-cdn.net/v3/fetch/22/2207633df03a819cd72889249c8361a8.jpeg?w=1470&r=0.5625"

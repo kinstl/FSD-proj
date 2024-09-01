@@ -18,5 +18,6 @@
   "noDataError": "The data is not specified",
   "countryError": "Incorrect region",
   "userError": "First and last name required",
-  "serverError": "Server error when saving"
+  "serverError": "Server error when saving",
+  "notFound": "Profile not found"
 }

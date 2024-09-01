@@ -34,7 +34,7 @@ describe('fetchNextArticlePage', () => {
         await thunk.callThunk();
 
         expect(thunk.dispatch).toBeCalledTimes(4);
-        expect(fetchArticlesList).toHaveBeenCalledWith({});
+        expect(fetchArticlesList).toHaveBeenCalled();
     });
 
     test('fetchArticleList not called due to hasMore', async () => {

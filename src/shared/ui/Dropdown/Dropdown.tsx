@@ -37,10 +37,11 @@ export const Dropdown = (props: DropdownProps) => {
                 ref={refs.setFloating}
                 style={floatingStyles}
             >
-                {items.map((item) => {
+                {items.map((item, id) => {
                     const content = ({ active }: { active: boolean }) => (
                         <button
                             type="button"
+                            key={id}
                             disabled={item.disabled}
                             onClick={item.onClick}
                             className={classNames(
