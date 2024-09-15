@@ -1,5 +1,7 @@
 {
   "": "",
+  "admin": "admin",
+  "adminPanel": "adminPanel",
   "age": "age",
   "ageError": "ageError",
   "all": "all",
@@ -30,6 +32,7 @@
   "error": "error",
   "errorList": "errorList",
   "firstname": "firstname",
+  "forbiddenPage": "forbiddenPage",
   "increment": "increment",
   "it": "it",
   "lastname": "lastname",
