@@ -86,16 +86,32 @@ export const ArticleDetails = memo(({ className, id }: ArticleDetailsProps) => {
     if (isLoading) {
         content = (
             <>
-                <Skeleton
-                    className={cls.avatar}
-                    width={200}
-                    height={200}
-                    border="50%"
-                />
-                <Skeleton className={cls.title} width={300} height={32} />
-                <Skeleton className={cls.skeleton} width={600} height={24} />
-                <Skeleton className={cls.skeleton} width="100%" height={200} />
-                <Skeleton className={cls.skeleton} width="100%" height={200} />
+                <HStack justify="center" max className={cls.avatarWrapper}>
+                    <Skeleton
+                        className={cls.avatar}
+                        width={200}
+                        height={200}
+                        border="50%"
+                    />
+                </HStack>
+                <VStack gap="4" max>
+                    <Skeleton className={cls.title} width={300} height={32} />
+                    <Skeleton
+                        className={cls.skeleton}
+                        width={600}
+                        height={24}
+                    />
+                    <Skeleton
+                        className={cls.skeleton}
+                        width="100%"
+                        height={200}
+                    />
+                    <Skeleton
+                        className={cls.skeleton}
+                        width="100%"
+                        height={200}
+                    />
+                </VStack>
             </>
         );
     } else if (error) {
@@ -135,6 +151,7 @@ export const ArticleDetails = memo(({ className, id }: ArticleDetailsProps) => {
         <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
             <VStack
                 gap="16"
+                max
                 className={classNames(cls.ArticleDetails, {}, [className])}
             >
                 {content}
