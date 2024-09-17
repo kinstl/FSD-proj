@@ -1,4 +1,4 @@
-import { memo, useCallback } from 'react';
+import { memo, Suspense, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
@@ -15,7 +15,7 @@ import { fetchCommentsByArticleId } from '../../model/services/fetchCommentsByAr
 
 interface ArticleDetailsCommentsProps {
     className?: string;
-    id: string;
+    id?: string;
 }
 
 export const ArticleDetailsComments = memo(
@@ -32,7 +32,7 @@ export const ArticleDetailsComments = memo(
         const commentsIsLoading = useSelector(getArticleCommentsIsLoading);
 
         const onSendComment = useCallback(
-            (text) => {
+            (text: string) => {
                 dispatch(addCommentForArticle(text));
             },
             [dispatch],
