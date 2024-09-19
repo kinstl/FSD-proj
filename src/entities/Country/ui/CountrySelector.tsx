@@ -4,7 +4,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { ListBox } from 'shared/ui/ListBox/ListBox';
 import { Country } from '../model/types/country';
 
-interface CountrySelectProps {
+interface CountrySelectorProps {
     className?: string;
     value?: Country;
     onChange?: (value: Country) => void;
@@ -19,8 +19,8 @@ const options = [
     { value: Country.Ukraine, content: Country.Ukraine },
 ];
 
-export const CountrySelect = memo(
-    ({ className, value, onChange, readonly }: CountrySelectProps) => {
+export const CountrySelector = memo(
+    ({ className, value, onChange, readonly }: CountrySelectorProps) => {
         const { t } = useTranslation('profile');
 
         const onChangeHandler = useCallback(

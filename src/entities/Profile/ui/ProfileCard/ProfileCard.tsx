@@ -7,7 +7,7 @@ import { Loader } from 'shared/ui/Loader/Loader';
 import { Avatar } from 'shared/ui/Avatar/Avatar';
 import { HStack, VStack } from 'shared/ui/Stack';
 import { Currency, CurrencySelect } from 'entities/Currency';
-import { Country, CountrySelect } from 'entities/Country';
+import { Country, CountrySelector } from 'entities/Country';
 import cls from './ProfileCard.module.scss';
 import { Profile } from '../../model/types/profile';
 
@@ -146,7 +146,7 @@ export const ProfileCard = (props: ProfileCardProps) => {
                 onChange={onChangeCurrency}
                 readonly={readonly}
             />
-            <CountrySelect
+            <CountrySelector
                 className={cls.input}
                 value={data?.country}
                 onChange={onChangeCountry}

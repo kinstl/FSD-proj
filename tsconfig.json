@@ -13,6 +13,7 @@
         "allowJs": true,
         "strict": true,
         "moduleResolution": "node",
+        "isolatedModules": true,
         // Для абсолютного импорта
         "baseUrl": ".",
         "paths": {

@@ -3,7 +3,7 @@ import { ArticleView } from 'entities/Article';
 import {
     ArticleSortField,
     ArticleType,
-} from 'entities/Article/model/types/article';
+} from 'entities/Article/model/consts/articleConsts';
 import { fetchNextArticlePage } from './fetchNextArticlesPage';
 import { fetchArticlesList } from '../fetchArticlesList/fetchArticlesList';
 import { ArticlesPageSchema } from '../../types/articlesPageSchema';
