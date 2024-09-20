@@ -1,0 +1,22 @@
+{
+  "age": "age",
+  "ageError": "ageError",
+  "avatar": "avatar",
+  "avatarAlt": "avatarAlt",
+  "cancel": "cancel",
+  "city": "city",
+  "country": "country",
+  "countryError": "countryError",
+  "currency": "currency",
+  "edit": "edit",
+  "firstname": "firstname",
+  "lastname": "lastname",
+  "noDataError": "noDataError",
+  "profile": "profile",
+  "profileError": "profileError",
+  "save": "save",
+  "serverError": "serverError",
+  "tryToRefresh": "tryToRefresh",
+  "userError": "userError",
+  "username": "username"
+}
