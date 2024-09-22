@@ -3,7 +3,8 @@ import { Menu } from '@headlessui/react';
 import { useFloating, flip, shift, autoUpdate } from '@floating-ui/react-dom';
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './Dropdown.module.scss';
-import { AppLink } from '../AppLink/AppLink';
+import popupCls from '../../styles/popup.module.scss';
+import { AppLink } from '../../../AppLink/AppLink';
 
 export interface DropdownItem {
     disabled?: boolean;
@@ -28,8 +29,14 @@ export const Dropdown = (props: DropdownProps) => {
     });
 
     return (
-        <Menu as="div" className={classNames(cls.Dropdown, {}, [className])}>
-            <Menu.Button className={cls.btn} ref={refs.setReference}>
+        <Menu
+            as="div"
+            className={classNames(cls.Dropdown, {}, [
+                className,
+                popupCls.popup,
+            ])}
+        >
+            <Menu.Button className={popupCls.trigger} ref={refs.setReference}>
                 {trigger}
             </Menu.Button>
             <Menu.Items
@@ -47,8 +54,8 @@ export const Dropdown = (props: DropdownProps) => {
                             className={classNames(
                                 cls.item,
                                 {
-                                    [cls.active]: active,
-                                    [cls.disabled]: item.disabled,
+                                    [popupCls.active]: active,
+                                    [popupCls.disabled]: item.disabled,
                                 },
                                 [],
                             )}

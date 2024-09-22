@@ -3,8 +3,9 @@ import { useFloating, flip, shift, autoUpdate } from '@floating-ui/react-dom';
 import { Listbox as HListBox } from '@headlessui/react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './ListBox.module.scss';
-import { Button } from '../Button/Button';
-import { HStack } from '../Stack';
+import popupCls from '../../styles/popup.module.scss';
+import { Button } from '../../../Button/Button';
+import { HStack } from '../../../Stack';
 
 export interface ListBoxItem {
     value: string;
@@ -37,7 +38,10 @@ export const ListBox = (props: ListBoxProps) => {
             {label && <span>{label}</span>}
             <HListBox
                 as="div"
-                className={classNames(cls.ListBox, {}, [className])}
+                className={classNames(cls.ListBox, {}, [
+                    className,
+                    popupCls.popup,
+                ])}
                 value={value}
                 onChange={onChange}
                 disabled={readonly}
@@ -63,8 +67,8 @@ export const ListBox = (props: ListBoxProps) => {
                             {({ active, selected }) => (
                                 <li
                                     className={classNames(cls.item, {
-                                        [cls.active]: active,
-                                        [cls.disabled]: item.disabled,
+                                        [popupCls.active]: active,
+                                        [popupCls.disabled]: item.disabled,
                                     })}
                                 >
                                     {selected && '!!!'}
