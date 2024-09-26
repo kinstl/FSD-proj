@@ -1,7 +1,7 @@
 import { memo, ReactNode } from 'react';
 import { Popover as HPopover } from '@headlessui/react';
 import { useFloating, flip, shift, autoUpdate } from '@floating-ui/react-dom';
-import { classNames } from 'shared/lib/classNames/classNames';
+import { classNames } from '@/shared/lib/classNames/classNames';
 import cls from './Popover.module.scss';
 import popupCls from '../../styles/popup.module.scss';
 

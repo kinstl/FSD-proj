@@ -1,9 +1,9 @@
-import { TestAsyncThunk } from 'shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
-import { ArticleView } from 'entities/Article';
+import { TestAsyncThunk } from '@/shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
+import { ArticleView } from '@/entities/Article';
 import {
     ArticleSortField,
     ArticleType,
-} from 'entities/Article/model/consts/articleConsts';
+} from '@/entities/Article/model/consts/articleConsts';
 import { fetchNextArticlePage } from './fetchNextArticlesPage';
 import { fetchArticlesList } from '../fetchArticlesList/fetchArticlesList';
 import { ArticlesPageSchema } from '../../types/articlesPageSchema';

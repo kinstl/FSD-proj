@@ -24,8 +24,9 @@ export default {
     rootDir: '../../',
     setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
     moduleNameMapper: {
+        '^@/(.*)$': '<rootDir>/src/$1',
         '\\.s?css$': 'identity-obj-proxy',
-        '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
+        '\\.svg$': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
     },
     reporters: [
         'default',
@@ -39,6 +40,7 @@ export default {
             },
         ],
     ],
+    transformIgnorePatterns: ['/node_modules/'],
     // Indicates whether the coverage information should be collected while executing the test
     // collectCoverage: false,
 
@@ -153,11 +155,6 @@ export default {
 
     // The glob patterns Jest uses to detect test files
 
-    // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-    // testPathIgnorePatterns: [
-    //   "\\\\node_modules\\\\"
-    // ],
-
     // The regexp pattern or array of patterns that Jest uses to detect test files
     // testRegex: [],
 
@@ -175,12 +172,6 @@ export default {
 
     // A map from regular expressions to paths to transformers
     // transform: undefined,
-
-    // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
-    // transformIgnorePatterns: [
-    //   "\\\\node_modules\\\\",
-    //   "\\.pnp\\.[^\\\\]+$"
-    // ],
 
     // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
     // unmockedModulePathPatterns: undefined,

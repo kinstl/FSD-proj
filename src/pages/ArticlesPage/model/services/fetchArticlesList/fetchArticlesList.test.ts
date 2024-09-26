@@ -1,9 +1,9 @@
-import { TestAsyncThunk } from 'shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
+import { TestAsyncThunk } from '@/shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
 import {
     ArticleBlockType,
     ArticleCodeBlock,
     ArticleTextBlock,
-} from 'entities/Article/model/types/article';
+} from '@/entities/Article/model/types/article';
 import { fetchArticlesList } from '../fetchArticlesList/fetchArticlesList';
 import { getArticlesPageLimit } from '../../selectors/articlesPageSelectors';
 

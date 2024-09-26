@@ -1,7 +1,7 @@
 import { Fragment, ReactNode } from 'react';
 import { Menu } from '@headlessui/react';
 import { useFloating, flip, shift, autoUpdate } from '@floating-ui/react-dom';
-import { classNames } from 'shared/lib/classNames/classNames';
+import { classNames } from '@/shared/lib/classNames/classNames';
 import cls from './Dropdown.module.scss';
 import popupCls from '../../styles/popup.module.scss';
 import { AppLink } from '../../../AppLink/AppLink';
