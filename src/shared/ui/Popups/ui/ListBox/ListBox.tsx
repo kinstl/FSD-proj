@@ -47,6 +47,7 @@ export const ListBox = (props: ListBoxProps) => {
                 disabled={readonly}
             >
                 <HListBox.Button
+                    as="div"
                     className={cls.trigger}
                     ref={refs.setReference}
                 >
