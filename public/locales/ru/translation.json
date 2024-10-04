@@ -27,5 +27,8 @@
   "appName": "Ulbi TV App",
   "createArticle": "Cоздать статью",
   "profile": "Профиль",
-  "admin": "Админка"
+  "admin": "Админка",
+  "yourReview": "Ваш отзыв",
+  "close": "Закрыть",
+  "send": "Отправить"
 }

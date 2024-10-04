@@ -24,5 +24,8 @@
   "profile": "Profile",
   "appName": "Ulbi TV App",
   "createArticle": "Create article",
-  "admin": "Admin Panel"
+  "admin": "Admin Panel",
+  "yourReview": "Your review",
+  "close": "Close",
+  "send": "Send"
 }

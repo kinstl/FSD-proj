@@ -1,4 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { Theme } from '@/app/providers/ThemeProvider';
+import { ThemeDecorator } from '@/shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { StarRating } from './StarRating';
 
 export default {
@@ -14,4 +16,12 @@ const Template: ComponentStory<typeof StarRating> = (args) => (
 );
 
 export const Normal = Template.bind({});
-Normal.args = {};
+Normal.args = {
+    size: 50,
+};
+
+export const Dark = Template.bind({});
+Dark.args = {
+    size: 50,
+};
+Dark.decorators = [ThemeDecorator(Theme.DARK)];
