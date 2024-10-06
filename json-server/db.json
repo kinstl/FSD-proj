@@ -1079,6 +1079,13 @@
       "rate": 5,
       "feedback": "фыаыфаыаф",
       "id": "ftXTMSh"
+    },
+    {
+      "userId": "1",
+      "articleId": "6f91oPl",
+      "rate": 1,
+      "feedback": "fake",
+      "id": "-11wEqT"
     }
   ],
   "profile-ratings": [
