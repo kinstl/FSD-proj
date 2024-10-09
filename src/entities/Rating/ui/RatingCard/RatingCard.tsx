@@ -2,7 +2,6 @@ import { memo, useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BrowserView, MobileView } from 'react-device-detect';
 import { classNames } from '@/shared/lib/classNames/classNames';
-import cls from './RatingCard.module.scss';
 import { Card } from '@/shared/ui/Card/Card';
 import { HStack, VStack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text/Text';
@@ -71,7 +70,7 @@ export const RatingCard = memo((props: RatingCardProps) => {
     );
 
     return (
-        <Card max className={classNames(cls.RatingCard, {}, [className])}>
+        <Card max className={classNames('', {}, [className])}>
             <VStack align="center" gap="8" max>
                 <Text title={starsCount ? t('thanksForRate') : title} />
                 <StarRating
