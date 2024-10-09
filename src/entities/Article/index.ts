@@ -1,3 +1,6 @@
+export { articleDetailsReducer } from './model/slice/articleDetailsSlice';
+export { ArticleBlockType } from './model/types/article';
+export type { ArticleTextBlock, ArticleCodeBlock } from './model/types/article';
 export { ArticleDetails } from './ui/ArticleDetails/ArticleDetails';
 export {
     ArticleView,

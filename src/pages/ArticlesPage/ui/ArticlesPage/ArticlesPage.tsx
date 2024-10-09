@@ -9,7 +9,6 @@ import {
 } from '@/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { useAppDispatch } from '@/shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useInitialEffect } from '@/shared/lib/hooks/useInitialEffect/useInitialEffect';
-import { Page } from '@/widgets/Page/Page';
 import cls from './ArticlesPage.module.scss';
 import { articlesPageReducer } from '../../model/slices/articlesPageSlice';
 import { getArticlesPageError } from '../../model/selectors/articlesPageSelectors';
@@ -17,6 +16,7 @@ import { fetchNextArticlePage } from '../../model/services/fetchNextArticlesPage
 import { initArticlesPage } from '../../model/services/initArticlesPage/initArticlesPage';
 import { ArticlesPageFilters } from '../ArticlesPageFilters/ArticlesPageFilters';
 import { ArticlesInfiniteList } from '../ArticlesInfiniteList/ArticlesInfiniteList';
+import { Page } from '@/widgets/Page';
 
 interface ArticlesPageProps {
     className?: string;

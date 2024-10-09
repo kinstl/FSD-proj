@@ -3,7 +3,7 @@ import {
     ArticleBlockType,
     ArticleCodeBlock,
     ArticleTextBlock,
-} from '@/entities/Article/model/types/article';
+} from '@/entities/Article';
 import { fetchArticlesList } from '../fetchArticlesList/fetchArticlesList';
 import { getArticlesPageLimit } from '../../selectors/articlesPageSelectors';
 
