@@ -12,6 +12,7 @@
   "backToList": "backToList",
   "cancel": "cancel",
   "city": "city",
+  "close": "close",
   "comments": "comments",
   "country": "country",
   "countryError": "countryError",
@@ -60,6 +61,7 @@
   "sortByCreatedAt": "sortByCreatedAt",
   "sortByTitle": "sortByTitle",
   "sortByViews": "sortByViews",
+  "thanksForRate": "thanksForRate",
   "throw error": "throw error",
   "toggle": "toggle",
   "translation": {
@@ -68,6 +70,7 @@
   "tryToRefresh": "tryToRefresh",
   "userError": "userError",
   "username": "username",
+  "yourReview": "yourReview",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",

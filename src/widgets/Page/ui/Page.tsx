@@ -9,7 +9,7 @@ import { useInitialEffect } from '@/shared/lib/hooks/useInitialEffect/useInitial
 import { StateSchema } from '@/app/providers/StoreProvider';
 import { useThrottle } from '@/shared/lib/hooks/useThrottle/useThrottle';
 import cls from './Page.module.scss';
-import { PAGE_ID } from '..';
+import { PAGE_ID } from '@/shared/const/page';
 
 interface PageProps {
     className?: string;
