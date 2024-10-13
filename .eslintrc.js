@@ -23,6 +23,7 @@ module.exports = {
         'i18next',
         'react-hooks',
         'ulbi-tv-plugin',
+        'unused-imports',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -76,13 +77,14 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-undef': 'off',
         'react/no-array-index-key': 'warn',
+        'eol-last': 'off',
         'ulbi-tv-plugin/path-checker': ['error', { alias: '@' }],
         'ulbi-tv-plugin/layer-imports': [
             'error',
             { alias: '@', ignoreImportPatterns: ['**/StoreProvider'] },
         ],
         'ulbi-tv-plugin/public-api-imports': ['error', { alias: '@' }],
-        'eol-last': 'off',
+        'unused-imports/no-unused-imports': 'error',
     },
     globals: {
         __IS_DEV__: true,
