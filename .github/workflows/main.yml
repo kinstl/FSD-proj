@@ -15,9 +15,6 @@ jobs:
     build-and-ui-testing:
         runs-on: ubuntu-latest
         concurrency: ci-${{ github.ref }}
-        environment:
-            name: github-pages
-            url: ${{ steps.deployment.outputs.page_url }}
         strategy:
             matrix:
                 node-version: [17.x]
