@@ -62,6 +62,7 @@ export const RatingCard = memo((props: RatingCardProps) => {
         <>
             <Text title={feedbackTitle} />
             <Input
+                data-testid="RatingCard.Input"
                 value={feedback}
                 onChange={setFeedback}
                 placeholder={t('yourReview')}
@@ -70,7 +71,11 @@ export const RatingCard = memo((props: RatingCardProps) => {
     );
 
     return (
-        <Card max className={classNames('', {}, [className])}>
+        <Card
+            data-testid="RatingCard"
+            max
+            className={classNames('', {}, [className])}
+        >
             <VStack align="center" gap="8" max>
                 <Text title={starsCount ? t('thanksForRate') : title} />
                 <StarRating
@@ -84,8 +89,14 @@ export const RatingCard = memo((props: RatingCardProps) => {
                     <VStack max gap="32">
                         {modalContent}
                         <HStack max gap="16" justify="end">
-                            <Button onClick={acceptHandler}>{t('send')}</Button>
                             <Button
+                                data-testid="RatingCard.Send"
+                                onClick={acceptHandler}
+                            >
+                                {t('send')}
+                            </Button>
+                            <Button
+                                data-testid="RatingCard.Close"
                                 onClick={cancelHandler}
                                 theme={ButtonTheme.OUTLINE_RED}
                             >

@@ -689,6 +689,32 @@
         }
       ],
       "id": "0f21vPH"
+    },
+    {
+      "title": "Экономическая статья - ИНФЛЯЦИЯ!",
+      "subtitle": "Экономика",
+      "img": "https://www.mirea.ru/upload/iblock/7cf/vvp_rf2018_1.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "ECONOMICS"
+      ],
+      "blocks": [],
+      "id": "qBtADRY"
+    },
+    {
+      "title": "Экономическая статья - ИНФЛЯЦИЯ!",
+      "subtitle": "Экономика",
+      "img": "https://www.mirea.ru/upload/iblock/7cf/vvp_rf2018_1.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "ECONOMICS"
+      ],
+      "blocks": [],
+      "id": "cELOa_M"
     }
   ],
   "comments": [
@@ -996,7 +1022,7 @@
       "age": 21,
       "currency": "USD",
       "country": "Kazakhstan",
-      "city": "Moscow",
+      "city": "New York",
       "username": "admin213",
       "avatar": "https://i.pinimg.com/564x/dd/0d/c9/dd0dc916a525869a6b575b59cf5db503.jpg"
     },
@@ -1020,7 +1046,7 @@
       "country": "Ukraine",
       "city": "Moscow",
       "username": "testuser",
-      "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
+      "avatar": "https://s1.1zoom.ru/big3/992/367659-alexfas01.jpg"
     }
   ],
   "article-ratings": [
