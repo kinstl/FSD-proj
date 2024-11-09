@@ -1,0 +1,54 @@
+{
+    "title": "Основы демократии",
+    "subtitle": "Политика",
+    "img": "https://dzen.ru/lz5XeGt8f/2U00Wf340/e47769bNYQCa/GrBBOJdHlOa6Z3r0J5X6xQ_9tKDoQSGMSXvcEpoEjg9tYQelGJba234FcWyWpV20J_6mStUvhtnLY5y2GSB0zjqRwE0TctAzmLMrBHM1_2CPOECAzLVljdkezTZekctpzWUGod2Tn92uRSFtZFf_hcC4RKz36MF7azd5pqjBYMjc4La45XYHhYg0HifnNNpHjk3k0pzRkfr5qJ3GGNZcnt-xt1GvYxzMCDKEKlUHb6RyqaZO9fsQquhGiqV9oUPJnDXU-jY258aaFAzENsQo5JwO55Gv4sGoOYm_5uqWjtxcsFUTb-JNrfgTZJhXJDy1INgXfbcacUubthvm_SJTiT8lpMklNaeU-2ZstTQXSFUOjtdQb6OTyCp5D5R6l_6Pv2MUokzB7z1I8mR4tTbON5AYxs01yOGK6YfaVF6S8pn9VHcZllaE9MvH3udXVDiXfp3nUczxcmvIi95UaJSP_94Ax0Mekm_u2NCkWpTWXLWxCwYvN9sTCfsHuYY9MwNarwX1WFdG9IeJ9F9WtyYqdU5uRdGM0TBJKCkd9iskPY4fEJSxrqDNPwpyxKrVxpyWQgiEvHcbgVrqRgqn3YFwGR5H15h3pbaGGSSflqc1OUf9T4birIOSWplb3wRbB4xvn8BVUw7gfW8IUqd4FpYuFELJJU6VixMLexZIZd4x4BqN1ScqlFU2hwjE_LU1VKmFLV6Ug7xQwZpLG272e0efzoxRNzC-oX_cysCkG1SnLSVzuSR81Zhya2r1e0TdgvNZfBf0WOcVliQ5lB-F9oe5BJ6fVeK_kMPIWUledyuG_a3PspSjvAPM7Mug1_tEBo9koMnnLpZYEwvJhZlnfSFBOE4X9mjE5OfGG_QNR3V12qSv30cArjNQ6Es7fzbKx49O3dPlwWwT7996IvRLF5U_51I65C8W6eK568T6VM5CYYnsRcUplrVVdhpVz1V2hykW7y8VcH4C0mqpWM8FWrY9bL3BtqEP4M6cCeM02VWFXjTQK-Xdh4pDiSgWC2TcY2EZ3ofmmLclJYYLp8zUpAb6N9_MtdBs4NB5KxjO9JtXrU2PM0XBnRP8zJtwt8hXNuy0wKlW3HdZ4Oj5Z6rHLbMxOf5VxQhGNOUluiUdhCcFSrXOj4QC7LFjeivZDQXKpD5_rDJ0gT_zHs16MFbatMSP50Dohn9VKFFaKvYrFm1jEzgchyd7xvaFl7hlb3SHZztF3I9HAE0BIsg5qK8maWT8XYyjxeK-sDzMODD1arc2HhSRizdthunxiUs0GYV_IOEJzoXFWsaHJUQo5BxWFNe6B2-dt_DsEGOZKDucB-tnXM-dUPcwfUAv7fviZOqmBM0lImtVTnUp8Hm6Rru1PTFyGU6WZwkFd_cEucSMxFaFmtY_v-VgXdMRWJgqDxZaxn4PD5JVMR8R_WzaIFVqt3edtYJ5hq5UekJLGhQoVFzTEagfhCW6dBVVx8sU7VU3BrhUzB9mouyA0Fo72M80CMbMv6yy1PFOwQ3My0A1OLbGP3cS-pVe1ynCeyvEGOUPITF4TIf3KYSWlwaIdI939JcZRh5dlgNdgPIKGlrOJwrmXpxtEHShHPONfJuwdTlGhR9E0MrmHxQrw4q69XslXIBTSQy3NFhXJte3-3aelpaFK1cebWTQjhLBWbvYLTdYhv7eLGG3EU3QP2yqUsT4RfaPJsKpJ15HiPC72gdIZe6TQ3mvZGao5tcm1Hnn3OXlBQg3zC1nwN7BEpuLOX8m-pfuv-9RFfHfUXztG9Mmq2X2npaCWObNZNhDyehEayfMgnNpf1QVmqR3NZcIJr7XJlcIl86P5gN9sTPq-bidBlgF_ZwsUSaynZPdzvlDREknlh118GlW_tfZ8_gZZMqVboKzK46U1IvWZgQGO9acxTcVG4eN_QdhjiEy67uq3bdYNi2trxF28L0g_J15gmV7BOasppMZNV7WaNDKyzd55KzgsopeFncq5VTF1uo0w",
+    "views": 2135,
+    "createdAt": "07.07.2021",
+    "userId": "3",
+    "type": [
+        "POLITICS"
+    ],
+    "blocks": [
+        {
+            "id": "1",
+            "type": "TEXT",
+            "title": "Заголовок этого блока",
+            "paragraphs": [
+                "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+                "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+                "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+            ]
+        },
+        {
+            "id": "4",
+            "type": "CODE",
+            "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+            "id": "5",
+            "type": "TEXT",
+            "title": "Заголовок этого блока",
+            "paragraphs": [
+                "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+                "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+            ]
+        }
+    ],
+    "id": "6f91oPl",
+    "user": {
+        "id": "3",
+        "username": "manager",
+        "password": "123",
+        "roles": [
+            "MANAGER"
+        ],
+        "features": {
+            "isArticleRatingEnabled": false,
+            "isCounterEnabled": true
+        },
+        "avatar": "https://s1.1zoom.ru/big3/992/367659-alexfas01.jpg",
+        "jsonSettings": {
+            "isArticlesPageWasOpened": true
+        }
+    }
+}

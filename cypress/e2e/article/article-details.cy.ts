@@ -30,4 +30,13 @@ describe('Пользователь заходит на страницу стат
         cy.setRate(3, 'feedback');
         cy.get('[data-isSelected=true]').should('have.length', 3);
     });
+    it('И ставит оценку (на стабах - фикстурах)', () => {
+        cy.intercept('GET', '**/articles/*', {
+            fixture: 'article-details.json',
+        });
+        cy.getByTestId('ArticleDetails.Info');
+        cy.getByTestId('RatingCard').scrollIntoView();
+        cy.setRate(3, 'feedback');
+        cy.get('[data-isSelected=true]').should('have.length', 3);
+    });
 });
