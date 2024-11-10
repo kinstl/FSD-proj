@@ -83,7 +83,7 @@ module.exports = {
         ],
         'ulbi-tv-plugin/public-api-imports': ['error', { alias: '@' }],
         'unused-imports/no-unused-imports': 'error',
-        'react/jsx-max-props-per-line': ['error', { maximum: 3 }],
+        'react/jsx-max-props-per-line': ['error', { maximum: 4 }],
     },
     globals: {
         __IS_DEV__: true,
