@@ -13,3 +13,9 @@
     margin-top: 15px;
     margin-left: auto;
 }
+
+@media (max-width: 576px) {
+    .LoginForm {
+        width: auto;
+    }
+}
