@@ -8,6 +8,8 @@ module.exports = {
         'plugin:react/recommended',
         'airbnb',
         'plugin:i18next/recommended',
+        'plugin:storybook/recommended',
+        'prettier',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -26,9 +28,6 @@ module.exports = {
         'unused-imports',
     ],
     rules: {
-        'react/jsx-indent': [2, 4],
-        'react/jsx-indent-props': [2, 4],
-        'indent': [2, 4],
         'react/jsx-filename-extension': [
             2,
             { extensions: ['.js', '.jsx', '.tsx'] },
@@ -65,7 +64,6 @@ module.exports = {
                 ],
             },
         ],
-        'max-len': ['error', { ignoreComments: true, code: 150 }],
         'object-curly-newline': 'off',
         'operator-linebreak': 'off',
         'quote-props': 'off',
@@ -85,6 +83,7 @@ module.exports = {
         ],
         'ulbi-tv-plugin/public-api-imports': ['error', { alias: '@' }],
         'unused-imports/no-unused-imports': 'error',
+        'react/jsx-max-props-per-line': ['error', { maximum: 3 }],
     },
     globals: {
         __IS_DEV__: true,
