@@ -8,7 +8,8 @@ function getApiUrl(mode: BuildMode, apiUrl?: string) {
         return apiUrl;
     }
     if (mode === 'production') {
-        return '/api';
+        // return '/api';
+        return 'http://localhost:8000';
     }
 
     return 'http://localhost:8000';
