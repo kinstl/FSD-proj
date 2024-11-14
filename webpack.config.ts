@@ -9,7 +9,7 @@ function getApiUrl(mode: BuildMode, apiUrl?: string) {
     }
     if (mode === 'production') {
         // return '/api';
-        return 'http://localhost:8000';
+        return 'http://kinstl-utv.ru:8000';
     }
 
     return 'http://localhost:8000';
