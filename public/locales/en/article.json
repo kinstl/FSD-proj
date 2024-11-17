@@ -27,5 +27,7 @@
   "editArticle": "Editing an article with an ID =",
   "create": "Creating a new article",
   "rateArticle": "Rate the article",
-  "reviewArticle": "Leave your feedback about the article, it will help to improve the quality"
+  "reviewArticle": "Leave your feedback about the article, it will help to improve the quality",
+  "greetingsTitle": "Welcome to the articles page",
+  "greetingsText": "Here you can search and view articles on various topics"
 }

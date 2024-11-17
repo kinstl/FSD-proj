@@ -13,6 +13,7 @@ interface DrawerProps {
     className?: string;
     children: ReactNode;
     isOpen?: boolean;
+    lazy?: boolean;
     onClose?: () => void;
 }
 
