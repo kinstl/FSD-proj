@@ -41,9 +41,7 @@ function isToggleFunction(node: Node) {
 }
 
 function isToggleComponent(node: Node) {
-    const identifier = node.getFirstDescendantByKind(SyntaxKind.Identifier);
-
-    return identifier?.getText() === toggleComponentName;
+    return node.getText().includes(toggleComponentName);
 }
 
 const replaceToggleFunction = (node: Node) => {

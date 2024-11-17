@@ -957,7 +957,6 @@
       ],
       "features": {
         "isArticleRatingEnabled": true,
-        "isCounterEnabled": true,
         "isAppRedesigned": true
       },
       "avatar": "https://i.pinimg.com/564x/dd/0d/c9/dd0dc916a525869a6b575b59cf5db503.jpg",
@@ -975,7 +974,6 @@
       ],
       "features": {
         "isArticleRatingEnabled": false,
-        "isCounterEnabled": false,
         "isAppRedesigned": false
       },
       "avatar": "",
@@ -992,8 +990,7 @@
         "MANAGER"
       ],
       "features": {
-        "isArticleRatingEnabled": false,
-        "isCounterEnabled": true
+        "isArticleRatingEnabled": false
       },
       "avatar": "https://s1.1zoom.ru/big3/992/367659-alexfas01.jpg",
       "jsonSettings": {
@@ -1008,8 +1005,7 @@
         "ADMIN"
       ],
       "features": {
-        "isArticleRatingEnabled": true,
-        "isCounterEnabled": true
+        "isArticleRatingEnabled": true
       },
       "avatar": "https://s1.1zoom.ru/big3/992/367659-alexfas01.jpg"
     }
