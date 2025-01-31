@@ -2,7 +2,7 @@
 
 ```
 npm install - устанавливаем зависимости
-npm run start:dev или npm run start:dev:vite - запуск сервера + frontend проекта в dev режиме
+npm run start:dev / npm run start:dev:vite - запуск сервера + frontend проекта в dev режиме
 ```
 
 ----
@@ -70,7 +70,7 @@ npm run start:dev или npm run start:dev:vite - запуск сервера + 
 В проекте используется eslint для проверки typescript кода и stylelint для проверки файлов со стилями.
 
 Также для строгого контроля главных архитектурных принципов
-используется собственный eslint plugin *eslint-plugin-ulbi-tv-plugin*,
+используется собственный плагин,
 который содержит 3 правила
 1) path-checker - запрещает использовать абсолютные импорты в рамках одного модуля
 2) layer-imports - проверяет корректность использования слоев с точки зрения FSD
